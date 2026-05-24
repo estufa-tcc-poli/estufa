@@ -1,0 +1,46 @@
+# ─── Credenciais e segredos ───────────────────────────────────────────────────
+docs/secrets.md
+**/.env
+**/.env.local
+**/.env.production
+**/secrets.json
+
+# ─── Python (back-end) ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+backend/venv/
+backend/.venv/
+backend/*.egg-info/
+backend/dist/
+backend/.pytest_cache/
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+
+# ─── Node / Next.js (dashboard) ───────────────────────────────────────────────
+dashboard/node_modules/
+dashboard/.next/
+dashboard/out/
+dashboard/.vercel/
+dashboard/.DS_Store
+
+# ─── ESP-IDF / Firmware ───────────────────────────────────────────────────────
+firmware/build/
+firmware/managed_components/
+firmware/.cache/
+firmware/sdkconfig.old
+firmware/dependencies.lock
+
+# ─── Sistema operacional ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
